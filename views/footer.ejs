@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <p>below is footer</p>
+    <footer>
+      <ul>
+        <% for (let i = 0; i< links.length; i++) { %>
+        <li>
+          <a href=" <%= links[i].href %>">
+            <span><%= links[i].text %></span>
+          </a>
+        </li>
+        <% } %>
+      </ul>
+    </footer>
+  </body>
+</html>
